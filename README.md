@@ -33,7 +33,11 @@ This plugin adds advanced Driver Assistance features to FiveM, including **Auton
 - **Autonomous Navigation** is triggered if a GPS waypoint is set.
 - **Lane-Keeping Assist** is activated if no waypoint is set and the vehicle is moving over **10 MPH**.
 
+## Dependencies
+- ox_lib
+
 ---
+
 
 ## Important Notice
 
