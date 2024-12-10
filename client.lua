@@ -141,7 +141,7 @@ local keybindCruiseControl = lib.addKeybind({name = 'toggle_cruise_control', des
             if vehicleClasses[vehicleClass] then
                 TriggerCruiseControl()
             else
-                lib.notify({type = 'error', text = 'This vehicle class does not support auto pilot'})
+                lib.notify({type = 'error', description = 'This vehicle class is not supported'})
             end
         end
     end
